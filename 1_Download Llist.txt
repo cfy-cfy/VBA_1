@@ -1,0 +1,82 @@
+Windows系统如果上面方法不行，在注册表编辑器修改：此种方法就把Windows下所有的软件默认安装路径都指定给其它盘符了。
+
+此步骤新手谨慎操作
+
+1、开始菜单---运行---输入regedit回车打开注册表编辑器
+2、查找到以下路径HKEY_LOCAL_MACHINE/SOFTWARE/Microsoft/Windows/CurrentVersion 
+
+这个步骤要耐心
+3、在右边的键值中找到ProgramFilesDir并右击：然后输入我们想要修改的路径即可。 （原路径：C:\Program Files）
+
+
+（一）————————————————————————————————————
+
+（1）Python
+（2）VB——VBA——VBE（VBEditor）
+     VB——VB.Net——VBScript——JSCript
+（3）C——C++——C#
+
+（4）Java
+
+（5）JavaScript
+
+（6）鬼鬼JS调试工具7.5
+
+（二）————————————————————————————————————
+
+Python :
+
+	(Jupyter Notebook ,Spyder ,VsCode, IDLE, Notepad++ ,Pycharm,  Visual Studio，Sublime Text3)
+
+（1）Anaconda Navigator (Anacando) （以及各种第三方程序包）
+
+（2）Node.js （下载网址：https://nodejs.org/dist/v10.15.3/）
+
+（3）ChromeDriver_Selenium 
+
+（4）TortoiseSVN
+
+（5）Fiddler.exe
+
+（6）Postman（下载网址：https://www.postman.com/downloads/）
+
+（三）————————————————————————————————————
+
+ VBA :  
+	(Visual Basic 6.0, Custom UI Editor For Microsoft Office , AccessDatabaseEngine2010 )
+
+microsoft 下载网址：https://msdn.itellyou.cn/
+
+（1）wicleanup
+
+（2）Microsoft Excel不能插入ActiveX控件：清理.exd+修复漏洞office更新文件
+
+（3）RibbonCommander_1.1.247.0  （下载网址：https://ilyda-ltd-ribbon-commander.software.informer.com/download/#downloading）
+
+（四）————————————————————————————————————
+
+  VSTO （可以用 VB.Net 或者 C# 进行office开发）
+（1）Visual Studio
+
+（2）Advance installer （打包 VATO 外接程序）
+
+（五）————————————————————————————————————
+
+谷歌浏览器扩展程序：
+
+（1）Awesome Screenshot 截图与录屏 4.3.12
+（2）Dark Reader 4.9.22
+（3）iGG谷歌访问助手 1.1.6
+（4）Adobe Acrobat15.1.2.4
+（5）postman
+
+（六）————————————————————————————————————
+
+（1）Adobe Photoshop CS6
+
+（2）Adobe Acrobat DC
+
+（3）屏幕录像专家V2013
+
+————————————————————————————————————
+
