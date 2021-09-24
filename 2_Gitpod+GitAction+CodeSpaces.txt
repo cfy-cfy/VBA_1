@@ -16,3 +16,20 @@ https://zhuanlan.zhihu.com/p/399645761
   
   【gitpod：在线编程，并且提供各种语言的运行环境】
   https://gitpod.io/workspaces
+  
+  gitpod：使用文档
+  https://www.gitpod.io/docs/getting-started/
+  
+  Start your first workspace
+
+  The best way to configure Gitpod is by using Gitpod - you could perform the following steps in your local environment as well, but we may as well experience     ephemeral developer environments right from the beginning.
+
+    In a browser, navigate to your project’s GitHub, GitLab or Bitbucket page.
+    In the browser’s address bar, prefix the entire URL with gitpod.io/# and press Enter.
+        For example, gitpod.io/#https://github.com/gitpod-io/website
+        We recommend you install the Gitpod browser extension to make this a one-click operation.
+    Sign in with one of the listed providers and let the workspace start up.
+
+Congratulations, you have started your first of many ephemeral developer environments 🎉!
+
+Next, let’s help Gitpod understand your repository to automate the developer environment and turn on prebuilds to supercharge your development workflow.
