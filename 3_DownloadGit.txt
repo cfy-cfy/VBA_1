@@ -1,5 +1,22 @@
-转载于:https://www.cnblogs.com/SH170706/p/11015049.html
+————————————————————————————————————————————
+【使用TortoiseSVN 从github下载单个文件】
 
+用TortoiseSVN从github下载单个文件  https://www.cnblogs.com/miaowulj/p/12033893.html
+下载TotoiseSVN安装  https://tortoisesvn.net/downloads.html 
+
+1.在任意文件夹中鼠标点击右键，点击SVN checkout
+2.从github上复制整个项目的URL(注意:use http)
+3.将URL复制到URL of repository中，并在后面添加/trunk/+你想要的下载文件夹的名称(Checkout dirctory自动填充为当前路径),点击ok
+ 对于master分支，把上述语句里的tree/master换成：   trunk/python-realtime-asr
+ 如果待checkout的不是master分支下的folder，而是别的分支，比如develop分支，则上面从浏览器里拷贝到的网址样式如下：
+ 把tree/develop里的tree改为:branches/develop：   branches/develop/python-realtime-asr
+
+例如： 
+版本库url   https://github.com/cfy-cfy/speech_realtime_api.git/trunk/python-realtime-asr
+
+检出至目录  C:\Users\hp\Desktop\SVN\python-realtime-asr
+
+————————————————————————————————————————————
 【从Github上下载github上的整个项目，可以用下面指令：】
 
 git clone https://github.com/XXX/xxxxx.git
@@ -8,35 +25,9 @@ git clone https://github.com/XXX/xxxxx.git
 
           xxxxx.git是用户在Github上的仓库名
 
-————————————————————————————————————————————————————
-【那如果只是想下载用户在Github上仓库里的某一个文件夹，怎么办呢？】
-
-没有直接的Git命令可以使用，在Windows里，可以借用TortoiseSVN,,下载TotoiseSVN安装。
-
-1.登录GitHub，选择仓库里待下载的文件夹，拷贝浏览器里的网址
-
-  https://github.com/XXX/xxxxx/tree/master/folder1/folder2
-
- 对于master分支，把上述语句里的tree/master换成trunk
-
- 拷贝：  https://github.com/XXX/xxxxx/trunk/folder1/folder2
-
-2.选择本机电脑上的目标文件夹，点鼠标右键，选择SVN Checkout
-
-3.如下图，点OK按钮，即可checkout 指定文件夹
-
-4.如果待checkout的不是master分支下的folder，而是别的分支，比如develop分支，则上面从浏览器里拷贝到的网址样式如下：
-
-https://github.com/XXX/xxxxx/tree/develop/folder1/folder2
-
-把tree/develop里的tree改为:branches
-
-拷贝：https://github.com/XXX/xxxxx/branches/develop/folder1/folder2
-
-然后使用TortoiseSVN工具按上面第2、3步进行checkout到所选择的文件夹
 
 ————————————————————————————————————————————————————
-【5.如何下载Github仓库里某一单个文件？】
+【如何下载Github仓库里某一单个文件？】
 
 方法1：参照上面下载folder的步骤，选定具体文件，拷贝在浏览器里的网址，再做相应调整，然后使用TortoiseSVN进行下载
 
