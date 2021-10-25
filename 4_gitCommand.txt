@@ -60,6 +60,8 @@ $ touch hello.php             # 创建文件
 $ ls
 README        hello.php
 
+$ cat README.md   # 查看 README.md 文件内容：
+
 $ git status
 $ git status -s  # 用于查看在你上次提交之后是否有对文件进行再次修改，使用 -s 参数来获得简短的输出结果；
 ?? README
@@ -92,5 +94,4 @@ $ git rm --cached runoob.txt # 把文件从暂存区域移除，但仍保留在�
 
 $ git clone https://github.com/tianqixin/runoob-git-test   # 拷贝完成后，在当前目录下会生成一个 runoob-git-test 目录；
 $ git clone https://github.com/tianqixin/runoob-git-test another-runoob-name  # 拷贝远程 git 项目，本地项目名为 another-runoob-name；
-
 
