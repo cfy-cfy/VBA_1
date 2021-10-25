@@ -1,0 +1,63 @@
+1、 下载安装 git （已安装可忽略）
+
+ 　  安装地址：https://git-scm.com/downloads
+
+2、进入你要上传的文件夹，空白处点击鼠标右键，选择 Git Bash Here
+
+
+
+3、进入终端后输入以下命令
+
+命令：
+
+　　① 初始化 ：git init （可以看到生成了 .git 目录）
+
+　　② 添加远程仓库：git remote add origin + 仓库地址  
+            例如：git remote add origin https://github.com/cfy-cfy/VBA_1.git
+            例如：git remote add origin git@github.com:cfy-cfy/VBA_1.git
+
+　　③ 所有变化提交到暂存区：git add .  （点不能漏）
+
+　　④ 提交到虚拟仓库：git commit -m ' 这里是注释 '
+
+　　⑤ 最后的提交命令：git push -u origin master
+  
+  *****************************************************************
+  
+【设置提交代码时的用户信息】
+
+开始前我们需要先设置提交的用户信息，包括用户名和邮箱：
+
+$ git config --global user.name 'cfy-cfy'
+$ git config --global user.email 1021931267@qq.com
+
+  *****************************************************************
+以下实例我们添加两个文件：
+
+$ touch README                # 创建文件
+$ touch hello.php             # 创建文件
+$ ls
+README        hello.php
+
+$ git status
+$ git status -s  # 用于查看在你上次提交之后是否有对文件进行再次修改，使用 -s 参数来获得简短的输出结果；
+?? README
+?? hello.php
+
+$ git add README hello.php 
+
+$ git status -s
+A  README
+A  hello.php
+
+$ git commit -m '第一次版本提交'            # -m 可以是一些备注信息
+$ git commit -am '修改 hello.php 文件'     # -a 参数设置修改文件后不需要执行 git add 命令，直接来提交;
+$ git commit [file1] [file2] ... -m [message]   # 提交暂存区的指定文件到仓库区：
+
+$ git remote add origin git@github.com:tianqixin/runoob-git-test.git
+$ git push -u origin master
+
+$ git remote rm name  # 删除远程仓库
+$ git remote rename old_name new_name  # 修改仓库名
+$ git remote -v  # 示所有远程仓库：
+
